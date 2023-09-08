@@ -58,7 +58,7 @@ rres_checklist = [["resultsStatus", "01"]]
 def create_driver():
     global driver
     driver = webdriver.Chrome(
-        executable_path=r"C:\\Users\\w132292\\VisualCode\\selenium_test\\chromeDriver\\chromeDriverchromedriver.exe"
+        executable_path=r"https://github.com/unaka1998/automatization_env/blob/main/chromedriver.exe"
     )
     driver.implicitly_wait(10)
 
