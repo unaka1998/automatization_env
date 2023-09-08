@@ -23,10 +23,10 @@ ftnpwd='qwer123'
 # Path to text document containing card information
 # Format in .txt file:
 # card_PAN auth_method(otp/potp) password(optional, default=parole)
-test_card_path = "C:\\Users\\w132292\\VisualCode\\selenium_test\\all_cards.txt"
+test_card_path = "https://github.com/unaka1998/automatization_env/blob/main/all_cards.txt"
 
 # Path to test results (currently in same dir as the .py file)
-test_result_path = "C:\\Users\\w132292\\VisualCode\\selenium_test\\Results"
+test_result_path = "https://github.com/unaka1998/automatization_env/tree/main/Result"
 
 # Path to BankId app desktop version
 bankIdAppPath = "C:\\Program Files (x86)\\BankID\\BankID.exe"
