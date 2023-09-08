@@ -79,7 +79,7 @@ def create_test_result_path():
 
     # Creates new folder in TestScreenshots with the template
     newpath = (
-        "C:\\Users\\w132292\\VisualCode\\selenium_test\\Results\\Execution"
+        "https://github.com/unaka1998/automatization_env/tree/main/Result/Execution"
         + time_string
         + "\\"
     )
