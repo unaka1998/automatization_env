@@ -29,7 +29,7 @@ test_card_path = "https://github.com/unaka1998/automatization_env/blob/main/all_
 test_result_path = "https://github.com/unaka1998/automatization_env/tree/main/Result"
 
 # Path to BankId app desktop version
-bankIdAppPath = "C:\\Program Files (x86)\\BankID\\BankID.exe"
+#bankIdAppPath = "C:\\Program Files (x86)\\BankID\\BankID.exe"
 
 # Used in acs_information_confirmation_p1
 # Checks for a line, that contains first element and compares lines result with second element
