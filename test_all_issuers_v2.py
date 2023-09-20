@@ -23,10 +23,10 @@ ftnpwd='qwer123'
 # Path to text document containing card information
 # Format in .txt file:
 # card_PAN auth_method(otp/potp) password(optional, default=parole)
-test_card_path = "https://github.com/unaka1998/automatization_env/blob/37f2885919249a1c61c161ef6100085fcbf62d5b/all_cards.txt"
+test_card_path = "C:\\Users\\w132292\\VisualCode\\selenium_test\\all_cards.txt"
 
 # Path to test results (currently in same dir as the .py file)
-test_result_path = "https://github.com/unaka1998/automatization_env/tree/37f2885919249a1c61c161ef6100085fcbf62d5b/Result"
+test_result_path = "C:\\Users\\w132292\\VisualCode\\selenium_test\\Results"
 
 # Path to BankId app desktop version
 #bankIdAppPath = "C:\\Program Files (x86)\\BankID\\BankID.exe"
@@ -58,7 +58,7 @@ rres_checklist = [["resultsStatus", "01"]]
 def create_driver():
     global driver
     driver = webdriver.Chrome(
-        executable_path=r"https://github.com/unaka1998/automatization_env/blob/main/chromedriver.exe"
+        executable_path=r"C:\\Users\\w132292\\VisualCode\\selenium_test\\Results"
     )
     driver.implicitly_wait(10)
 
@@ -79,7 +79,7 @@ def create_test_result_path():
 
     # Creates new folder in TestScreenshots with the template
     newpath = (
-        "https://github.com/unaka1998/automatization_env/tree/main/Result/Execution"
+        "C:\\Users\\w132292\\VisualCode\\selenium_test\\chromeDriver\\chromeDriverchromedriver.exe"
         + time_string
         + "\\"
     )
