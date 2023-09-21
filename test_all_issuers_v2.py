@@ -79,7 +79,7 @@ def create_test_result_path():
 
     # Creates new folder in TestScreenshots with the template
     newpath = (
-        "C:\\Users\\w132292\\VisualCode\\selenium_test\\chromeDriver\\chromeDriverchromedriver.exe"
+        "C:\\Users\\w132292\\VisualCode\\selenium_test\\chromeDriver\\chromeDriver.exe"
         + time_string
         + "\\"
     )
